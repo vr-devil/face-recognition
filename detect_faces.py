@@ -12,7 +12,7 @@ from PIL import Image
 
 
 FACE_API_URL = 'https://api.projectoxford.ai/face/v1.0/detect'
-FACE_API_KEY = 'b5a8ba87b3d340f2a59307f0029d7d37'
+FACE_API_KEY = ''
 FACE_API_HEADERS = {
     'Content-Type' : 'application/octet-stream',
     'Ocp-Apim-Subscription-Key' : FACE_API_KEY
